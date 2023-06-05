@@ -2,10 +2,10 @@
 image: hu
 # Functions that should be executed before the build script is run
 before_script:
-  - nothing
+  - node:lts
 pages:
   script:
-    - contactMe
+    - npm run build
   artifacts:
     paths:
       # The folder that contains the files to be exposed at the Page URL
