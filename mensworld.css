@@ -1,0 +1,32 @@
+.mensimage{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 440px)
+{
+    .bigbox{
+        position: relative;
+    }
+    .mensimage{
+        grid-template-columns: none;
+        gap: 0rem;
+    }
+    #menspicture img{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .mensbriefarticle h2{
+        position: absolute;
+        width: 90%;
+        text-align: center;
+        top: 0%;
+    }
+}
+
+
+

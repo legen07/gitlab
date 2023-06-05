@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Make a purchase</title>
+    <link rel="shortcut icon" type = 'image/x-icon' href="images/icons/penis-64.png">
+    <link rel="stylesheet" href="headandfoot.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,100&family=Kavivanar&family=Overpass:wght@100;400&family=Quintessential&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;700;800;900&family=Sriracha&family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-470321368"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-470321368');
+</script>
+<!-- Clarity tracking code for https://hugeone.store/ --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "hb5qqjl0gq");</script>
+
+</head>
+
+<body>
+  <header>
+    <div class="firsthead">
+        <div>
+            <span> 
+                <a href="index.html">
+                    <span id="hugelogo">Huge 1ne</span>
+                    <weak id="ghspace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</weak>
+                    <weak id="weakgh">Gh</weak>
+                </a>
+            </span>
+        </div>
+        <nav >
+         <ul class="headlist">
+            <li><a href="tel:+ 233 50 865 9556 " >Contact Us</a>
+            </li>
+            <li id="makeapurchase">
+                 <a href="forms.html" target="_blank">Make a purchase</a>
+            </li>
+        </ul>
+        </nav>
+      
+
+    </div>
+        <nav class=" pages">
+            <!-- <a href="index.html" target="_blank" class="back"><img src="images/icons/backarrow.svg" alt=" back" width=" 25px">
+            </a> -->
+            <a href="proof.html" id="testimonies"><img src="images/icons/rating.png" alt=" back" width=" 30">&nbsp;&nbsp; Testimonies</a>
+            <!-- <p>&nbsp; </p> -->
+            <a href="mensworld.html" id="Enhancement" target="_blank">
+                <img src="images/icons/muscle.png" alt="strenght" width="30">
+                <span>&nbsp;&nbsp;</span> Enhancement</a>
+            <a href="bigxxl.html" id="Enhancement" target="_blank">
+                <img src="images/icons/penis-64.png" alt="strenght" width="30">
+                <span>&nbsp;&nbsp;</span>Enlargement</a>
+            <!-- <p>&nbsp;</p> -->
+            <!-- <a href="forms.html" id="order" target="_blank">
+                <img src="images/icons/cart1.png" alt="order now" width="30" >
+                <span>&nbsp;&nbsp;</span>Purchase</a> -->
+        </nav>
+    </div>
+</header>
+
+    <iframe
+      id="JotFormIFrame-231155836118051"
+      title="Order form"
+      onload="window.parent.scrollTo(0,0)"
+      allowtransparency="true"
+      allowfullscreen="true"
+      allow="geolocation; microphone; camera"
+      src="https://form.jotform.com/231155836118051"
+      frameborder="0"
+      style="min-width:100%;max-width:100%;height:539px;border:none;"
+      scrolling="no"
+    >
+    </iframe>
+    <script type="text/javascript">
+    var ifr = document.getElementById("JotFormIFrame-231155836118051");
+    if (ifr) {
+      var src = ifr.src;
+      var iframeParams = [];
+      if (window.location.href && window.location.href.indexOf("?") > -1) {
+        iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&'));
+      }
+      if (src && src.indexOf("?") > -1) {
+        iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&"));
+        src = src.substr(0, src.indexOf("?"))
+      }
+      iframeParams.push("isIframeEmbed=1");
+      ifr.src = src + "?" + iframeParams.join('&');
+    }
+    window.handleIFrameMessage = function(e) {
+      if (typeof e.data === 'object') { return; }
+      var args = e.data.split(":");
+      if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+      if (!iframe) { return; }
+      switch (args[0]) {
+        case "scrollIntoView":
+          iframe.scrollIntoView();
+          break;
+        case "setHeight":
+          iframe.style.height = args[1] + "px";
+          if (!isNaN(args[1]) && parseInt(iframe.style.minHeight) > parseInt(args[1])) {
+            iframe.style.minHeight = args[1] + "px";
+          }
+          break;
+        case "collapseErrorPage":
+          if (iframe.clientHeight > window.innerHeight) {
+            iframe.style.height = window.innerHeight + "px";
+          }
+          break;
+        case "reloadPage":
+          window.location.reload();
+          break;
+        case "loadScript":
+          if( !window.isPermitted(e.origin, ['jotform.com', 'jotform.pro']) ) { break; }
+          var src = args[1];
+          if (args.length > 3) {
+              src = args[1] + ':' + args[2];
+          }
+          var script = document.createElement('script');
+          script.src = src;
+          script.type = 'text/javascript';
+          document.body.appendChild(script);
+          break;
+        case "exitFullscreen":
+          if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+          else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+          else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+          else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+          else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+          break;
+      }
+      var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+      if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+        var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+        iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+      }
+    };
+    window.isPermitted = function(originUrl, whitelisted_domains) {
+      var url = document.createElement('a');
+      url.href = originUrl;
+      var hostname = url.hostname;
+      var result = false;
+      if( typeof hostname !== 'undefined' ) {
+        whitelisted_domains.forEach(function(element) {
+            if( hostname.slice((-1 * element.length - 1)) === '.'.concat(element) ||  hostname === element ) {
+                result = true;
+            }
+        });
+        return result;
+      }
+    };
+    if (window.addEventListener) {
+      window.addEventListener("message", handleIFrameMessage, false);
+    } else if (window.attachEvent) {
+      window.attachEvent("onmessage", handleIFrameMessage);
+    }
+    </script>
+
+    <div class="cover"></div>
+
+    
+
+
+
+    <footer class="enan">    
+      <div class="enan1">
+          <a href="index.html"><span id="hugelogo">Huge 1ne</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<weak>Ghana</weak>
+          <br>
+          <p>© 2023 Huge1ne, Incorporated. All rights reserved.</p>
+      </div>
+      <div class="ena">
+          <nav >
+                 <a href="tel: +233 50 865 9556" target="_blank">
+                     <p>&nbsp;&nbsp;Contact Us</p>
+                 </a>
+                 <p> &nbsp;&nbsp;Frequently asked questions</p>
+                 <a href="privacypolicy.html" target="_blank">
+                  <p>&nbsp;&nbsp;Privacy Policy</p>
+              </a>
+                 <p>&nbsp;&nbsp;About Us</p>
+          </nav>
+          <nav>
+              <a href="proof.html" target="_blank">
+                  <p> &nbsp;&nbsp;Before and after</p>
+              </a>
+              <a href="mensworld.html" target="_blank">
+                  <p> &nbsp;&nbsp;Men's World vitality</p>
+              </a>
+              <a href="bigxxl.html" target="_blank" > 
+                  <p> &nbsp;&nbsp;Big XXL Cream</p>
+              </a>
+              <a href="forms.html" target="_blank">
+                  <p> &nbsp;&nbsp;Make A Purchase </p>
+              </a>
+             
+          </nav>
+      </div>
+  </footer>
+</body>
+</html>     
